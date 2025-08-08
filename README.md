@@ -63,19 +63,15 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
    ```bash
    npm start
 4. Open http://localhost:3000 and repeat the same tests as in Option 1.
-   ```
-   git clone https://github.com/ElfWebTeam/Hashmark-AI.git
-   cd Hashmark-AI
-   npm install
-   npm start
-   ```
-   Then open: http://localhost:3000
+
    Requirements: 
    - Node.js 18+
    - MetaMask wallet connected to Hedera Testnet (chainId 0x128)
    - Testnet HBAR in your wallet
 
-   .env file with:
+## Environment Variables
+   Your .env should be in .gitignore.
+   Commit .env.example to the repo with placeholders:
    HEDERA_OPERATOR_ID=0.0.xxxxxx
    HEDERA_OPERATOR_KEY=302e0201...
    OPENAI_API_KEY=sk-...
