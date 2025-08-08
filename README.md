@@ -52,6 +52,10 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ---
 
+<img width="1895" height="755" alt="hashmark-ai" src="https://github.com/user-attachments/assets/687854ae-3fe8-4297-8bca-76c72359c36c" />
+
+
+
 ## Local Development
 
 Clone and run locally:
