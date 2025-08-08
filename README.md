@@ -46,10 +46,9 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 | Blockchain    | Hedera HCS + HFS + HTS |
 | Wallet        | MetaMask (Hedera testnet via EVM) |
 | Backend       | Node.js + Express |
-| Frontend      | HTML + CSS + Vanilla JS |
+| Frontend      | HTML + CSS + JS |
 | AI            | OpenAI API (text summarization) |
 | Storage       | HFS (immutable proofs) + JSON file (local state) |
-| Hosting       | Render (free tier) |
 
 ---
 
