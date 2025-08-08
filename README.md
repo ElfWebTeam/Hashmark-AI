@@ -1,5 +1,7 @@
 # Hashmark AI
 
+<img width="1895" height="755" alt="hashmark-ai" src="https://github.com/user-attachments/assets/687854ae-3fe8-4297-8bca-76c72359c36c" />
+
 **Hashmark AI** is an AI-powered document notary built on the Hedera network.  
 It lets anyone upload a file, pay per notarization in HBAR, and get a permanent, verifiable proof of existence.  
 Each notarization is summarized by AI, recorded to Hedera File Service (HFS), and minted as a 1-of-1 NFT on Hedera Token Service (HTS).  
@@ -52,8 +54,7 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ---
 
-<img width="1895" height="755" alt="hashmark-ai" src="https://github.com/user-attachments/assets/687854ae-3fe8-4297-8bca-76c72359c36c" />
-
+<img width="1415" height="576" alt="hashmark" src="https://github.com/user-attachments/assets/cf0d948d-1ba1-484f-b4ff-ea24322c8ba9" />
 
 
 ## Local Development
