@@ -58,10 +58,12 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
    git clone https://github.com/ElfWebTeam/Hashmark-AI.git
    cd Hashmark-AI
    npm install
+   ```
 2. Create a .env file from .env.example (see Environment Variables below).
 3. Start the backend:
    ```bash
    npm start
+   ```
 4. Open http://localhost:3000 and repeat the same tests as in Option 1.
 
    Requirements: 
