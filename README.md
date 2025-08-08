@@ -74,14 +74,14 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 ## Environment Variables
    Your .env should be in .gitignore.
    Commit .env.example to the repo with placeholders:
-   HEDERA_OPERATOR_ID=0.0.xxxxxx
-   HEDERA_OPERATOR_KEY=302e0201...
-   OPENAI_API_KEY=sk-...
-   TREASURY_ADDRESS=0x...
-   PRICE_WEI=500000000000000000
-   HASHIO_RPC_URL=https://testnet.hashio.io/api
-   MAX_FILE_MB=12
-   PORT=3000
+   - HEDERA_OPERATOR_ID=0.0.xxxxxx
+   - HEDERA_OPERATOR_KEY=302e0201...
+   - OPENAI_API_KEY=sk-...
+   - TREASURY_ADDRESS=0x...
+   - PRICE_WEI=500000000000000000
+   - HASHIO_RPC_URL= (you can leave it empty)
+   - MAX_FILE_MB=12
+   - PORT=3000
 
 ## 🛠 Tech Stack
 
