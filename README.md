@@ -41,15 +41,29 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ---
 
-## Testing
-1. Start the backend: `npm start`
-2. Open the app in the browser.
-3. Test notarization:
-   - Upload a new file, approve payment, confirm it appears in the feed.
-4. Test verification:
-   - Re-upload the same file under the Verify tab, confirm proofs and summaries are shown.
+## 🧪 Testing Instructions
 
+### Option 1 – Test on Live Deployment
+1. Visit: https://hashmark-ai.onrender.com
+2. Connect MetaMask to Hedera Testnet (chainId 0x128).
+3. Use Testnet HBAR from https://portal.hedera.com/faucet
+4. **Notarization Test**: Upload any file under “Notarize” and approve the HBAR payment.
+5. **Verification Test**: Switch to the “Verify” tab, re-upload the same file, confirm that:
+   - File hash matches an existing notarization.
+   - Proofs, summaries, and NFT data appear.
+
+### Option 2 – Test Locally
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/ElfWebTeam/Hashmark-AI.git
+   cd Hashmark-AI
+   npm install
 ---
+2. Create a .env file from .env.example (see Environment Variables below).
+3. Start the backend:
+   ```bash
+   npm start
+4. Open http://localhost:3000 and repeat the same tests as in Option 1.
 
 ## 🛠 Tech Stack
 
@@ -69,7 +83,7 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ## Local Development
 
-Clone and run locally:
+Clone and run locally (re-summarize):
 
 ```bash
 git clone https://github.com/ElfWebTeam/Hashmark-AI.git
