@@ -1,0 +1,135 @@
+{
+  "files": {
+    "e83014e71fc8e772b7689a3f1c8628a2ef2852a1a38e31bddaf823615570e709": {
+      "fileId": "0.0.6521562",
+      "tokenId": "0.0.6521564",
+      "summary": "- The text discusses various aspects of design and functionality, emphasizing the importance of structure and flow in written content.\n- It highlights the significance of effective communication and the use of appropriate language to convey ideas clearly.\n- The content mentions the role of visual elements, such as layout and formatting, in enhancing readability and engagement.\n- It suggests that a well-organized approach can improve user experience and facilitate better understanding of the material.\n- The text concludes with a reminder of the value of clarity and coherence in both written and visual communication.",
+      "timestamp": 1754589168562,
+      "filename": "file-example_PDF_500_kB.pdf",
+      "txHash": "0xb1bdb41bc7177ad65404412a128b09c78ee766d3cde1810f945845fa671e232f",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    },
+    "5e4d40fcd8b22453a5da2d32533b128f2565f3fc7a4d1647a93c86cdbb4be37a": {
+      "fileId": "0.0.6521608",
+      "tokenId": "0.0.6521609",
+      "summary": "- The text discusses various aspects of design and layout, emphasizing the importance of structure and organization in written content.\n- It highlights the significance of effective communication through clear and concise language, ensuring the reader's understanding.\n- The content mentions the role of visual elements, such as spacing and formatting, in enhancing readability and engagement.\n- It suggests that a well-organized approach can improve the overall user experience, making information more accessible.\n- The text concludes with a reminder of the importance of maintaining a balance between aesthetics and functionality in design.",
+      "timestamp": 1754589279523,
+      "filename": "file-example_PDF_1MB.pdf",
+      "txHash": "0xba57839e2b8a891be23944ac18c4b3fe1f550711b2c6f469a7dc2bbea5a42b79",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    },
+    "38c9792d725c45dd431699e6a3b0f0f8e17c63c9ac7331387ee30dcc6e42a511": {
+      "fileId": "0.0.6521894",
+      "tokenId": "0.0.6521898",
+      "summary": "- The text discusses various aspects of design and layout, emphasizing the importance of structure and organization in written content.\n- It highlights the significance of effective communication through clear formatting and the use of appropriate language.\n- The content mentions the role of visual elements, such as spacing and alignment, in enhancing readability and user experience.\n- It suggests that a well-structured document can improve engagement and comprehension for the audience.\n- Overall, the text serves as a guide for creating visually appealing and coherent written materials.",
+      "timestamp": 1754590044841,
+      "filename": "file-sample_150kB.pdf",
+      "txHash": "0xf4ff7d90c90253070cd3dadb7eb7600fcb98307f8f8ba3d699af3ca0e3dbfc11",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    },
+    "f6edcd8a1b4f7cb85486d0c6777f9174eadbc4d1d0d9e5aeba7132f30b34bc3e": {
+      "fileId": "0.0.6522101",
+      "tokenId": "0.0.6522103",
+      "summary": "- Your computer has a PDF reader, allowing you to view PDF documents and forms from the site.\n- PDF forms are marked with specific icons for easy identification.\n- The document is from the Yukon Department of Education.\n- The mailing address is Box 2703, Whitehorse, Yukon, Canada, Y1A 2C6.\n- For more information, visit the Yukon Department of Education's website at http://www.education.gov.yk.ca/.",
+      "timestamp": 1754590524604,
+      "filename": "pdf-test.pdf",
+      "txHash": "0x93437a1012d1df9e3bfa37ee2413319b6ec54155b4704cd938f4f63d2c4370fb",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    },
+    "40c5b733d0e21c53a9e40fa6eb9df01bb6898b842f5f13bd42db5624c2a97dd0": {
+      "fileId": "0.0.6532615",
+      "tokenId": "0.0.6532616",
+      "summary": "- The document is a sample PDF created for testing purposes, consisting of three pages filled with placeholder text.\n- It includes a mix of philosophical musings on the nature of page length and the concept of time.\n- The text features repeated use of \"Lorem ipsum,\" a standard placeholder text in the publishing and graphic design industries.\n- Various Latin phrases and sentences are included, discussing topics like education, facilitation, and the importance of structure.\n- The overall tone is light and somewhat humorous, with a focus on the absurdity of comparing lengths of pages and minutes.",
+      "timestamp": 1754674991643,
+      "filename": "sample-local-pdf.pdf",
+      "txHash": "0xb02bbcb32536e40bb603fe9de6c68cd6e612807da02177458c02637ef50ca5e1",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    },
+    "abce4555988c34a8f924b1d8c1e7ede8e0b18e8565e7aaf5fca2374e3d8b6707": {
+      "fileId": "0.0.6532637",
+      "tokenId": "0.0.6532638",
+      "summary": "- Smallpdf offers a comprehensive platform for managing digital documents, allowing users to upload, organize, and share files easily.\n- Users can access their stored files anytime and from any device, including computers, phones, and tablets, with synchronization through the Smallpdf Mobile App.\n- The platform provides various options for file manipulation, including conversion, compression, and modification, accessible via right-click.\n- Smallpdf simplifies administrative tasks by enabling e-signature requests, large file transfers, and integration with G Suite for organizations.\n- The new Smallpdf experience enhances collaboration and document management efficiency.",
+      "timestamp": 1754675302731,
+      "filename": "Get_Started_With_Smallpdf.pdf",
+      "txHash": "0xf2256d66dd4db2600d34e52789ea815236f75efac4e89c965513ac1acffbcad6",
+      "wallet": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311"
+    }
+  },
+  "usedTx": {
+    "0xb1bdb41bc7177ad65404412a128b09c78ee766d3cde1810f945845fa671e232f": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754589176152
+    },
+    "0xba57839e2b8a891be23944ac18c4b3fe1f550711b2c6f469a7dc2bbea5a42b79": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754589287883
+    },
+    "0xf4ff7d90c90253070cd3dadb7eb7600fcb98307f8f8ba3d699af3ca0e3dbfc11": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754590054762
+    },
+    "0x93437a1012d1df9e3bfa37ee2413319b6ec54155b4704cd938f4f63d2c4370fb": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754590531562
+    },
+    "0xb02bbcb32536e40bb603fe9de6c68cd6e612807da02177458c02637ef50ca5e1": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754674999040
+    },
+    "0xf2256d66dd4db2600d34e52789ea815236f75efac4e89c965513ac1acffbcad6": {
+      "by": "0x67f0ed040b47c3865ee90ff1ca81b1b1e1b59311",
+      "at": 1754675308328
+    }
+  },
+  "pending": {},
+  "attestations": {
+    "e83014e71fc8e772b7689a3f1c8628a2ef2852a1a38e31bddaf823615570e709": [
+      {
+        "fileId": "0.0.6521565",
+        "timestamp": 1754589181213,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "/XgPf/LNfRY6P7W1iKmbeD5l4+sW93oC5knj6ju8O7WhcmazBYi5CtC97+UdZY+KUp+6lb1E3WeoqtGb3wN1Ag=="
+      }
+    ],
+    "5e4d40fcd8b22453a5da2d32533b128f2565f3fc7a4d1647a93c86cdbb4be37a": [
+      {
+        "fileId": "0.0.6521611",
+        "timestamp": 1754589294848,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "mKjONEISXPWYnBP/kShNjInO4wcDMfGF1GhMte7QWCvD/TFTO8D11+P0yiLlgkrOndbL8nZL7+FASW4QpWxTCQ=="
+      }
+    ],
+    "38c9792d725c45dd431699e6a3b0f0f8e17c63c9ac7331387ee30dcc6e42a511": [
+      {
+        "fileId": "0.0.6521901",
+        "timestamp": 1754590058635,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "aqAvmTePP0NDJoVLkA1tf/9fLNkxVanWI4hkRO2Hu+KUX/TJy3pWuQhhjAuWUb4528WmmAMg0TLrdlmpK7hfAg=="
+      }
+    ],
+    "f6edcd8a1b4f7cb85486d0c6777f9174eadbc4d1d0d9e5aeba7132f30b34bc3e": [
+      {
+        "fileId": "0.0.6522104",
+        "timestamp": 1754590535700,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "bC8inIDyCEhPmOHgepjzixtiZcuUu8D4e8oE8Yl3E+Unmvtzw1ffR7Z05vUuhr1iEGtLcAurVtqWMtwvjQwbAA=="
+      }
+    ],
+    "40c5b733d0e21c53a9e40fa6eb9df01bb6898b842f5f13bd42db5624c2a97dd0": [
+      {
+        "fileId": "0.0.6532617",
+        "timestamp": 1754675004062,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "0Qr2QQZlSWw6/80TnnOGB16qETuoFJMvf+t535mxje3XeMuceO8g6MqEnth/MT9jlIQ9R/PO9iGoSgKoPEgUDw=="
+      }
+    ],
+    "abce4555988c34a8f924b1d8c1e7ede8e0b18e8565e7aaf5fca2374e3d8b6707": [
+      {
+        "fileId": "0.0.6532639",
+        "timestamp": 1754675313201,
+        "signerPubKey": "059b341b2d460a584cc7dad58070c9103a89c0432e37de1c1afa75496d70955d",
+        "sigBase64": "yPfZx74cQHmKwOKM5jiK+CipEz/MCQMYdjw/6/cgpyc9L+C4q8mwtgu6xehNamlTHB+NsQy2THjDFHyWVKzwCw=="
+      }
+    ]
+  }
+}

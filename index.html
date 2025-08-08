@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Hashmark AI: On-Chain Document Notary</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+  <header class="nav">
+    <a href="/" class="brand" title="Refresh">
+      <h1>Hashmark AI</h1>
+    </a>
+    <div class="actions">
+      <span id="priceBanner" class="banner"></span>
+      <button id="connectBtn" class="primary ghost">Connect Wallet</button>
+      <span id="account" class="addr"></span>
+    </div>
+  </header>
+
+  <p id="hcsTopic" class="muted"></p>
+
+  <section class="card fade-in">
+    <h2>1 · Notarize a Document</h2>
+    <div class="dropzone" id="nzDrop">
+      <input id="docInput" type="file" accept=".pdf,.docx,image/*" />
+      <span id="docLabel">Drop your document here or click to browse</span>
+    </div>
+    <button id="notarizeBtn" class="primary">Notarize · <span id="priceLabel">0.5 HBAR</span></button>
+    <div class="result" id="notarizeResult">
+      <div>SHA-256: <code id="resultHash"></code></div>
+      <div>HFS File: <a id="resultFileId" target="_blank" rel="noopener"></a></div>
+      <div>HTS Token: <a id="resultTokenId" target="_blank" rel="noopener"></a></div>
+      <details id="summaryBox" class="summaryBox">
+        <summary>AI Summary</summary>
+        <pre id="resultSummary"></pre>
+      </details>
+    </div>
+  </section>
+
+  <section class="card fade-in">
+    <h2>2 · Verify a Document</h2>
+    <div class="dropzone" id="vrDrop">
+      <input id="verifyInput" type="file" />
+      <span id="verifyLabel">Drop your document here or click to browse</span>
+    </div>
+    <button id="verifyBtn" class="primary">Verify</button>
+    <div class="result" id="verifyResult">
+      <div>SHA-256: <code id="verifyHash"></code></div>
+      <div>Status: <strong id="verifyStatus" class="status"></strong></div>
+      <div>HFS File: <a id="verifyFileId" target="_blank" rel="noopener"></a></div>
+      <div>HTS Token: <a id="verifyTokenId" target="_blank" rel="noopener"></a></div>
+      <details>
+        <summary>Attestations</summary>
+        <ul id="attestations"></ul>
+      </details>
+    </div>
+  </section>
+
+  <section class="card fade-in">
+    <h2>3 · Live Stream (SSE + HCS)</h2>
+    <ul id="live" class="live"></ul>
+  </section>
+
+  <footer class="info fade-in">
+    <section class="small-card">
+      <h3>About Hashmark AI</h3>
+      <p>
+        Hash locally · Pay once · Immutable proof on Hedera ·
+        1-of-1 NFT minted · AI summary + signed attestation for
+        every document.
+      </p>
+    </section>
+
+    <section class="small-card">
+      <h3>How It Works</h3>
+      <ol>
+        <li><b>Hash</b> is computed in-browser.</li>
+        <li><b>0.5 HBAR</b> payment via MetaMask (Testnet).</li>
+        <li>Server uploads metadata to <b>HFS</b>, mints <b>NFT</b>.</li>
+        <li>Agent listens on <b>HCS</b>, posts attestation.</li>
+        <li>Re-upload to verify <em>match / no-match</em>.</li>
+      </ol>
+    </section>
+
+    <section class="small-card faq">
+      <h3>FAQ</h3>
+      <details>
+        <summary>Why Hedera?</summary>
+        <p>Predictable fees and fast finality make notarization affordable.</p>
+      </details>
+      <details>
+        <summary>Is my file on-chain?</summary>
+        <p>No. Only the hash and metadata are stored — bytes never leave your browser.</p>
+      </details>
+      <details>
+        <summary>Batch support?</summary>
+        <p>Zip & watcher ingestion are on our roadmap.</p>
+      </details>
+    </section>
+  </footer>
+
+  <script>
+    // Dropzone handling
+    const zones = [
+      { input: 'docInput', label: 'docLabel', zone: 'nzDrop' },
+      { input: 'verifyInput', label: 'verifyLabel', zone: 'vrDrop' }
+    ];
+    zones.forEach(({ input, label, zone }) => {
+      const inp = document.getElementById(input);
+      const span = document.getElementById(label);
+      const wrap = document.getElementById(zone);
+      const reset = () => span.textContent = 'Drop your document here or click to browse';
+      inp.addEventListener('change', () => {
+        if (inp.files && inp.files[0]) span.textContent = inp.files[0].name;
+        else reset();
+      });
+      ['dragover', 'dragenter'].forEach(ev =>
+        wrap.addEventListener(ev, e => { e.preventDefault(); wrap.classList.add('drag'); }));
+      ['dragleave', 'drop'].forEach(ev =>
+        wrap.addEventListener(ev, () => wrap.classList.remove('drag')));
+    });
+
+    // Brand hover effect + refresh
+    document.querySelector('.brand').addEventListener('click', e => {
+      e.preventDefault();
+      location.reload();
+    });
+
+    // Wallet connect feedback (simulate)
+    document.getElementById('connectBtn').addEventListener('click', function () {
+  this.textContent = 'Connected';
+  this.classList.add('connected');
+  document.getElementById('account').textContent = '0x1234...abcd';
+});
+
+  </script>
+</body>
+</html>
+
