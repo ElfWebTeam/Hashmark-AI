@@ -66,22 +66,22 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
    ```
 4. Open http://localhost:3000 and repeat the same tests as in Option 1.
 
-   Requirements: 
-   - Node.js 18+
-   - MetaMask wallet connected to Hedera Testnet (chainId 0x128)
-   - Testnet HBAR in your wallet
+## Requirements: 
+- Node.js 18+
+- MetaMask wallet connected to Hedera Testnet (chainId 0x128)
+- Testnet HBAR in your wallet
 
 ## Environment Variables
-   Your .env should be in .gitignore.
-   Commit .env.example to the repo with placeholders:
-   - HEDERA_OPERATOR_ID=0.0.xxxxxx
-   - HEDERA_OPERATOR_KEY=302e0201...
-   - OPENAI_API_KEY=sk-...
-   - TREASURY_ADDRESS=0x...
-   - PRICE_WEI=500000000000000000
-   - HASHIO_RPC_URL= (you can leave it empty)
-   - MAX_FILE_MB=12
-   - PORT=3000
+   ```env
+   HEDERA_OPERATOR_ID=0.0.xxxxxx
+   HEDERA_OPERATOR_KEY=302e0201...
+   OPENAI_API_KEY=sk-...
+   TREASURY_ADDRESS=0x...
+   PRICE_WEI=500000000000000000
+   HASHIO_RPC_URL=
+   MAX_FILE_MB=12
+   PORT=3000
+   ```
 
 ## 🛠 Tech Stack
 
