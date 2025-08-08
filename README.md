@@ -4,7 +4,7 @@
 
 **Hashmark AI** is an AI-powered document notary built on the Hedera network.  
 It lets anyone upload a file, pay per notarization in HBAR, and get a permanent, verifiable proof of existence.  
-Each notarization is summarized by AI, recorded to Hedera File Service (HFS), and minted as a 1-of-1 NFT on Hedera Token Service (HTS).  
+Each notarization is summarized by AI, recorded to Hedera File Service (HFS). 
 All notarizations and agent-generated attestations stream in real time over Hedera Consensus Service (HCS).
 
 Live demo: [https://hashmark-ai.onrender.com](https://hashmark-ai.onrender.com)  
@@ -18,7 +18,6 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 - **Local file hashing** (SHA-256) before upload
 - **AI-generated summary** for each document (OpenAI API)
 - **Immutable proof**: metadata stored on HFS with no update keys
-- **On-chain NFT marker**: 1-of-1 HTS token per notarization
 - **Live HCS feed**: notarizations + attestations appear in real time
 - **Automated agent attestations**: subscriber reacts to new HCS events, runs checks, signs results, and stores them back to HFS
 - **Duplicate detection**: skips payment if the file was already notarized
@@ -33,11 +32,10 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 3. If new, MetaMask prompts for an HBAR payment to the treasury address.
 4. Server verifies the payment on-chain, re-hashes the uploaded file, and generates an AI summary + deterministic field extraction.
 5. Metadata (hash, filename, summary, extracted fields, timestamp) is stored immutably in HFS.
-6. A 1-of-1 HTS NFT is minted with metadata pointing to the HFS file.
-7. Server publishes a `hedger.notarized` event to HCS.
-8. Agent subscriber picks up the event, runs extra checks, signs an attestation, stores it to HFS, and publishes a `hedger.attested` event.
-9. Both notarizations and attestations stream live to the frontend.
-10. Anyone can verify a file by re-hashing and looking up its records.
+6. Server publishes a `hedger.notarized` event to HCS.
+7. Agent subscriber picks up the event, runs extra checks, signs an attestation, stores it to HFS, and publishes a `hedger.attested` event.
+8. Both notarizations and attestations stream live to the frontend.
+9. Anyone can verify a file by re-hashing and looking up its records.
 
 ---
 
@@ -50,7 +48,7 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 4. **Notarization Test**: Upload any file under “Notarize” and approve the HBAR payment.
 5. **Verification Test**: Switch to the “Verify” tab, re-upload the same file, confirm that:
    - File hash matches an existing notarization.
-   - Proofs, summaries, and NFT data appear.
+   - Proofs, summaries, and data appear.
 
 ### Option 2 – Test Locally
 1. Clone the repo:  
