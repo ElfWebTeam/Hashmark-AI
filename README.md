@@ -41,7 +41,7 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ---
 
-## 🧪 Testing Instructions
+## 🧪 Testing Instructions (+Local Development)
 
 ### Option 1 – Test on Live Deployment
 1. Visit: https://hashmark-ai.onrender.com
@@ -58,12 +58,32 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
    git clone https://github.com/ElfWebTeam/Hashmark-AI.git
    cd Hashmark-AI
    npm install
----
 2. Create a .env file from .env.example (see Environment Variables below).
 3. Start the backend:
    ```bash
    npm start
 4. Open http://localhost:3000 and repeat the same tests as in Option 1.
+   ```
+   git clone https://github.com/ElfWebTeam/Hashmark-AI.git
+   cd Hashmark-AI
+   npm install
+   npm start
+   ```
+   Then open: http://localhost:3000
+   Requirements: 
+   - Node.js 18+
+   - MetaMask wallet connected to Hedera Testnet (chainId 0x128)
+   - Testnet HBAR in your wallet
+
+   .env file with:
+   HEDERA_OPERATOR_ID=0.0.xxxxxx
+   HEDERA_OPERATOR_KEY=302e0201...
+   OPENAI_API_KEY=sk-...
+   TREASURY_ADDRESS=0x...
+   PRICE_WEI=500000000000000000
+   HASHIO_RPC_URL=https://testnet.hashio.io/api
+   MAX_FILE_MB=12
+   PORT=3000
 
 ## 🛠 Tech Stack
 
@@ -81,37 +101,6 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 <img width="1415" height="576" alt="hashmark" src="https://github.com/user-attachments/assets/cf0d948d-1ba1-484f-b4ff-ea24322c8ba9" />
 
 
-## Local Development
-
-Clone and run locally (re-summarize):
-
-```bash
-git clone https://github.com/ElfWebTeam/Hashmark-AI.git
-cd Hashmark-AI
-npm install
-npm start
-
-Then open: http://localhost:3000
-
-Requirements:
-
-Node.js 18+
-
-MetaMask wallet connected to Hedera Testnet (chainId 0x128)
-
-Testnet HBAR in your wallet
-
-.env file with:
-HEDERA_OPERATOR_ID=0.0.xxxxxx
-HEDERA_OPERATOR_KEY=302e0201...
-OPENAI_API_KEY=sk-...
-TREASURY_ADDRESS=0x...
-PRICE_WEI=500000000000000000
-HASHIO_RPC_URL=https://testnet.hashio.io/api
-MAX_FILE_MB=12
-PORT=3000
-```
-
 ### Verification Flow
 - Go to the Verify section.
 - Upload any file.
@@ -121,7 +110,7 @@ PORT=3000
 - HTS token ID
 - Any agent-generated attestations (HFS file IDs and timestamps)
 
-###About the Hackathon
+### About the Hackathon
 - Event: Hello Future: Origins (DoraHacks)
 - Track: AI and Agents
 - Focus: AI-blockchain integration, autonomous agents, verifiable proofs
