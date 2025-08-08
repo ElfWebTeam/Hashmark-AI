@@ -41,7 +41,7 @@ Built for the **Hello Future: Origins** hackathon (Track: AI & Agents)
 
 ---
 
-## 🧪 Testing Instructions (+Local Development)
+## 🧪 Testing Instructions (Local Development & Deployment)
 
 ### Option 1 – Test on Live Deployment
 1. Visit: https://hashmark-ai.onrender.com
