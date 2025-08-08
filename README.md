@@ -84,15 +84,15 @@ PORT=3000
 ```
 
 ### Verification Flow
--Go to the Verify section.
--Upload any file.
--The app hashes the file and checks if it matches an existing notarization.
--If matched, shows:
--Original HFS file ID
--HTS token ID
--Any agent-generated attestations (HFS file IDs and timestamps)
+- Go to the Verify section.
+- Upload any file.
+- The app hashes the file and checks if it matches an existing notarization.
+- If matched, shows:
+- Original HFS file ID
+- HTS token ID
+- Any agent-generated attestations (HFS file IDs and timestamps)
 
 ###About the Hackathon
--Event: Hello Future: Origins (DoraHacks)
--Track: AI and Agents
--Focus: AI-blockchain integration, autonomous agents, verifiable proofs
+- Event: Hello Future: Origins (DoraHacks)
+- Track: AI and Agents
+- Focus: AI-blockchain integration, autonomous agents, verifiable proofs
